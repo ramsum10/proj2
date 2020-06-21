@@ -98,7 +98,6 @@ def flip():
     return send_image('temp.png')
 
 
-# crop filename from (x1,y1) to (x2,y2)
 @app.route("/compress", methods=["POST"])
 def crop():
     # retrieve parameters from html form
